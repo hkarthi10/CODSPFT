@@ -17,8 +17,12 @@ class ATM_MACHINE{
 }
 //ATM's User Interface for verification and the processes after verification
 class Users_Interface extends ATM_MACHINE{
-    int[] bal,pin_nos,acc_nos,card_nos;
-    String[] users;
+    int[] bal = {5000, 10000, 7500};
+    int[] pin_nos = {1111, 2222, 3333};
+    int[] acc_nos = {101, 102, 103};
+    int[] card_nos = {1234, 5678, 9999};
+    String[] users = {"Karthik", "Anu", "Raj"};
+
     Scanner scanner = new Scanner(System.in);
     int con;
 
