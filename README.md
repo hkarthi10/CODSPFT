@@ -76,12 +76,3 @@ Converts currency from one type to another using real-time exchange rates fetche
 - External JAR support required (`json-20230227.jar` or similar)
 
 ---
-
-## How to Run
-
-Make sure Java is installed (JDK 8 or later).
-
-### For standard programs:
-```bash
-javac FileName.java
-java FileName
