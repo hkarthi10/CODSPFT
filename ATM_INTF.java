@@ -21,7 +21,7 @@ class Users_Interface extends ATM_MACHINE{
     int[] pin_nos = {1111, 2222, 3333};
     int[] acc_nos = {101, 102, 103};
     int[] card_nos = {1234, 5678, 9999};
-    String[] users = {"Karthik", "Anu", "Raj"};
+    String[] users = {"Karthi", "Sandy", "Raj"};
 
     Scanner scanner = new Scanner(System.in);
     int con;
